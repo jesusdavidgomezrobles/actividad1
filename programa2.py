@@ -13,6 +13,6 @@ def evaluar_primo(n):
             break
     return resultado
 if (evaluar_primo(n)==True):
-    print("El numero ingresado es primo")
+    print("El numero ingresado(" + str(n) + ")es primo")  
 else:
-    print("El numero ingresado no es primo")
+   print("El numero ingresado("+ str(n) + ")no es primo")  
