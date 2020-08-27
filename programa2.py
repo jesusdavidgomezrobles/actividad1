@@ -5,7 +5,7 @@ def evaluar_primo(n):
     contador=0
     resultado=True
     
-    for i in range(1, n+1):
+    for i in range(1, n):
         if (n%i==0):
             contador+=1
         if (contador>2):
