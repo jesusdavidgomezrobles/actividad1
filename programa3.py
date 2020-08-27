@@ -1,5 +1,5 @@
 
-num = int(input("Ingrese un numero"))
+num = int(input("Ingrese un numero====>"))
 
 def numero_perfecto(num):
     suma = 0
@@ -12,6 +12,6 @@ def numero_perfecto(num):
     return suma == num
 
 if (numero_perfecto(num)==True):
-    print("El numero ingresado(" + str(num) + ")es perfecto")
+    print("El numero ingresado=>(" + str(num) + ")<=es perfecto")
 else:
-    print("El numero ingresado(" + str(num) + ")no es perfecto")
+    print("El numero ingresado=>(" + str(num) + ")<=no es perfecto")
